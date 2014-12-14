@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.service.myocontrol" name="Myo Control" version="0.0.1" provider-name="You">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="myo_service.py" start="login"></extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Control XBMC/KODI using Thalmic's Myo armband</summary>
+    <description lang="en">[blha details]</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
